@@ -1,0 +1,698 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+ 
+
+// Reset CSS and Pattern assets
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+span{
+    color: $span;
+}
+
+.float-whatsapp-btn{
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    bottom: 0;
+    margin: 0 0.5em 0.5em 0;
+    font-size: 30px;
+    right: 0;
+    height: 62px;
+    padding: 8px;
+    width: 62px;
+    border-radius: 50%;
+    background-color: $primary-green;
+
+    i{
+        color: $secondary-white;
+    }
+}
+
+    .float-backtop-btn{
+        position: fixed;
+        z-index: 1;
+        text-align: center;
+        bottom: 0;
+        margin: 0 0 0.5em 0.5em;
+        font-size: 30px;
+        left: 0;
+        height: 62px;
+        padding: 6px;
+        width: 62px;
+        border-radius: 50%;
+        background-color: #000000;
+
+    i{
+        color: $secondary-white;
+    }
+}
+
+//Body and navbar
+
+body{
+    background-color: $primary-white;
+
+    .navbar{
+        background-color: transparent !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute; 
+        top: 0; 
+        width: 100%; 
+        z-index: 1000;
+
+        img{
+            width: 150px;
+        }
+
+        a{
+            padding-left: 0.5em !important;
+        }
+
+        .navbar-toggler-icon{
+            background-image: url(../sass/pages/bg-imgs/toggle.png) !important;
+            border: none !important;
+            box-shadow: none !important;
+            outline: none !important;
+        }
+    }
+}
+
+//Main section
+
+.container-home{
+    height: calc(100vh - 70px);
+    background-image: url(../sass/pages/bg-imgs/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $light-blue;
+    margin: 0 auto;
+    overflow-x: hidden;
+
+    .title{
+        width: 1280px;
+        margin: 0 auto;
+
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            color: $secondary-white;
+            font-weight: 700;
+            font-size: 3.5em;
+        }
+    
+        p{
+            font-family: 'Montserrat', sans-serif;
+            color: $secondary-white;
+            font-weight: 300;
+            padding-bottom: 0.5em;
+            font-size: 2em;
+        }
+
+        a{
+            background-color: $primary-green;
+            color: $secondary-white;
+            text-decoration: none;
+            padding: 12px;
+            text-decoration: none;
+            transition: .3s ease-in-out;
+
+            &:hover{
+                background-color: $secondary-green;
+            }
+        }
+
+        i{
+            padding-left: 5px;
+        }
+    }
+}
+
+// Benefits card section
+
+.benefits-card-container{
+    height: auto;
+    padding: 2em;
+    gap: 1em;
+    background-color: $primary-white;
+
+    .card{
+        height: 200px;
+        width: 300px;
+        padding: 25px;
+        margin-bottom: 3em;
+        background-color: $light-blue;
+        transition: .3s ease-in-out;
+        cursor: default;
+        border-radius: 12px;
+
+        &:hover{
+            background-color: $primary-blue;
+        }
+
+        h1{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: $secondary-white;
+        font-size: 25px;
+        }
+
+        i{
+        text-align: center;
+        color: $secondary-white;
+        font-size: 45px;
+        }
+    }
+}
+
+//Services section
+
+.service-container{
+    height: auto;
+    background-color: $primary-white;
+    justify-content: center !important;
+    flex-direction: column;
+
+    .title-help{
+        margin-top: 3em;
+
+        h1{
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        p{
+            text-align: center;
+            width: 900px;
+            margin: 0 auto;
+            padding-bottom: 1em;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+        }
+
+        .btns-services{
+            max-height: none;
+        }
+    }
+
+    a{
+        background-color: $primary-blue !important;
+        font-family: 'Montserrat', sans-serif !important;
+        font-weight: 400 !important;
+        margin-top: 20px;
+
+        i{
+            color: $primary-white;
+        }
+    }
+
+    .collapse{
+        padding-bottom: 1em !important;
+    }
+
+    .card{
+        height: auto !important;
+        width: auto !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        overflow: hidden !important;
+        gap: 1em;
+
+        .card-labor{
+            height: 400px;
+            width: 300px;
+            padding: 25px;
+            background-color: $span;
+            transition: .3s ease-in-out;
+            cursor: default;
+            border-radius: 12px;
+    
+            &:hover{
+                background-color: $gray;
+            }
+    
+            h1{
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: $secondary-white;
+            font-size: 25px;
+            }
+    
+            p{
+            text-align: center;
+            color: $secondary-white;
+            font-weight: 400;
+            font-size: 18px;
+            }
+        }
+    }
+
+}
+
+.whats-btn{
+    margin-top: 1.5em;
+    margin-bottom: 5em;
+        
+       a{
+        background-color: $primary-green !important;
+        color: $secondary-white;
+        text-decoration: none;
+        padding: 12px;
+        text-decoration: none;
+        transition: .3s ease-in-out;
+
+        &:hover{
+            background-color: $secondary-green !important;
+        }
+
+        i{
+            padding-left: 5px;
+        }
+    }
+}
+
+//About lawyer section
+
+.lawyer-container{
+    height: 80vh;
+    background-color: $primary-white;
+    background-image: url(../sass/pages/bg-imgs/bg-lawyer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 5em;
+    overflow: hidden;
+
+    .lawyer-picture{
+       img{
+        width: 400px;
+       }
+    }
+
+    .lawyer-description{
+        width: 550px;
+
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: $secondary-white;
+        }
+
+        p{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            color: $secondary-white;
+            padding-bottom: 1em;
+        }
+
+        a{
+            background-color: transparent;
+            color: $secondary-white;
+            text-decoration: none;
+            padding: 12px;
+            border: 2px solid $secondary-white;
+            transition: .3s ease-in-out;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+
+            &:hover{
+                background-color: $secondary-white;
+                color: #000000;
+            }
+        }
+    }
+}
+
+//Adress section
+
+.adress-container{
+    height: 100vh;
+    background-color: $primary-white;
+
+    .office-title{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        padding: 2em 0 1em 0;
+    }
+
+    .avaliate{
+        height: 200px;
+        width: 550px;
+        margin-top: -5em;
+        border-radius: 12px;
+        background-color: $secondary-blue;
+        padding: 2em;
+
+        h1{
+            text-align: center;
+            color: $secondary-white;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+        }
+
+        p{
+            color: $secondary-white;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            padding: 0 20px 0 20px;
+        }
+
+        a{
+            background-color: $light-blue;
+            color: $secondary-white;
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: .3s ease-in-out;
+
+            &:hover{
+                background-color: $span;
+            }
+        }
+
+    }
+}
+
+//Footer
+
+footer {
+    margin-top: 5em;
+    background-color: $gray;
+    height: 320px;
+    width: 100%;
+
+    img{
+        padding: 1em 0 1em 0;
+        width: 200px;
+    }
+    
+    .infos{
+        color: $secondary-white;
+        text-align: center;
+        h2{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        p{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            text-decoration: none;
+            color: $secondary-white;
+        }
+
+        a{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            text-decoration: none;
+            color: $secondary-white;
+            transition: .3s ease-in-out;
+
+            
+            &:hover{
+                color: #9dc6e3;
+            }
+        }
+
+    }
+}
+
+.copyright{
+    height: auto;
+    background-color: #454444;
+
+    p{
+        color: $secondary-white;
+        text-align: center;
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+    a{
+        color: $secondary-white;
+    }
+}
+
+//Responsivity
+@media screen and (max-width:1300px) {
+
+    .container-home{
+        justify-content: center;
+        align-items: center !important;
+
+        #btn-home{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .title{
+            justify-content: center;
+            align-items: center;
+
+            h1, p{
+                text-align: center;
+            }
+        }
+
+    }
+
+    .card{
+        h1{
+            font-size: 20px !important;
+        }
+
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+    
+    .container-home{
+        background-image: url(../sass/pages/bg-imgs/bg-alternative.png) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:1095px){
+    
+    .lawyer-container{
+        gap: 2em;
+        text-align: center;
+        
+        .lawyer-picture{
+            img{
+                width: 250px !important;
+            }
+        }
+    }
+
+    .avaliate{
+        h1{
+            padding-top: 0.5em;
+        }
+
+        a{
+            margin-bottom: 1em !important;
+        }
+    }
+
+}
+
+@media screen and (max-width:960px) {
+
+    .container-home{
+        .title{
+            h1{
+                font-size: 45px;
+            }
+
+        }
+
+    }
+
+    .benefits-card-container{
+        flex-direction: column;
+
+        .card{
+            h1{
+                font-size: 25px !important;
+            }
+    
+        }
+        
+    }
+
+        .title-help{
+            p{
+                width: 600px !important;
+            }
+            
+        }
+
+        .lawyer-container{
+            gap: 25px;
+            flex-direction: column;
+            text-align: center;
+            
+            .lawyer-picture{
+                img{
+                    width: 200px !important;
+                }
+            }
+        }
+
+
+}
+
+@media screen and (max-width:720px){
+
+    .lawyer-container{
+        h1{
+            font-size: 25px;
+        }
+
+        p{
+            font-size: 15px;
+        }
+
+        .lawyer-picture{
+            img{
+                width: 150px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .container-home{
+        .title{
+            padding: 25px;
+
+        }
+
+    }
+
+    .lawyer-description{
+        padding: 0 5em 0 5em;
+    }
+
+    .title-help{
+        h1{
+            padding: 20px;
+        }
+
+        p{
+            width: 400px !important;
+            padding: 0 4em 0 4em;
+        }
+        
+    }
+
+    iframe{
+        width: 300px;
+    }
+
+    .avaliate{
+        width: 380px !important;
+
+        h1{
+            font-size: 22px !important;
+                padding-top: 20px;
+        }
+
+        p{
+            font-size: 12px !important;
+        }
+    }
+
+}
+
+@media screen and (max-width:400px){
+
+    .container-home{
+        .title{
+            h1{
+                font-size: 30px;
+            }
+
+            p{
+                font-size: 25px;
+            }
+
+        }
+    }
+
+    .lawyer-description{
+        padding: 0 10em 0 10em !important;
+    }
+
+    .title-help{
+        h1{
+            padding: 20px;
+            width: auto;
+        }
+
+        p{
+            width: auto !important;
+            padding: 0 4em 0 4em;
+        }
+
+    }
+
+    .office-title{
+        text-align: center;
+        padding: 1em 20px 1em 20px !important;
+    }
+
+    iframe{
+        width: 280px;
+    }
+
+    .adress-container{
+        height: auto;
+    }
+
+    .avaliate{
+        width: 320px !important;
+
+        h1{
+            font-size: 22px !important;
+        }
+
+        p{
+            padding: 0 20px 0 20px;
+        }
+    }
+
+}
+
+@media screen and (max-width:375px){
+
+    .card{
+        width: 280px !important;
+    }
+
+    .avaliate{
+        width: 300px !important;
+    }
+}
+
+
+
+
+
+
