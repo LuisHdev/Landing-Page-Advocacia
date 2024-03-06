@@ -13,11 +13,11 @@
 <br>
 
 <p align="center">
-  <img alt="Seção Landing Page" src="imgs/preview1.jpg" width="100%">
-  <img alt="Seção Landing Page" src="imgs/preview2.jpg" width="100%">
-  <img alt="Seção Landing Page" src="imgs/preview1.jpg" width="100%">
-  <img alt="Seção Landing Page" src="imgs/preview2.jpg" width="100%">
-  <img alt="Seção Landing Page" src="imgs/preview1.jpg" width="100%">
+  <img alt="Seção Landing Page" src="imgs/preview1.jpeg" width="100%">
+  <img alt="Seção Landing Page" src="imgs/preview2.jpeg" width="100%">
+  <img alt="Seção Landing Page" src="imgs/preview1.jpeg" width="100%">
+  <img alt="Seção Landing Page" src="imgs/preview2.jpeg" width="100%">
+  <img alt="Seção Landing Page" src="imgs/preview1.jpeg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
