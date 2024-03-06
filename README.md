@@ -15,9 +15,9 @@
 <p align="center">
   <img alt="Seção Landing Page" src="imgs/preview1.jpeg" width="100%">
   <img alt="Seção Landing Page" src="imgs/preview2.jpeg" width="100%">
-  <img alt="Seção Landing Page" src="imgs/preview1.jpeg" width="100%">
-  <img alt="Seção Landing Page" src="imgs/preview2.jpeg" width="100%">
-  <img alt="Seção Landing Page" src="imgs/preview1.jpeg" width="100%">
+  <img alt="Seção Landing Page" src="imgs/preview3.jpeg" width="100%">
+  <img alt="Seção Landing Page" src="imgs/preview4.jpeg" width="100%">
+  <img alt="Seção Landing Page" src="imgs/preview5.jpeg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
